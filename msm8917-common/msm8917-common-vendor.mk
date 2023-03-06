@@ -1135,6 +1135,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/libsdmutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsdmutils.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/libsdsprpc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsdsprpc.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/libsec-ril-dsds.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsec-ril-dsds.so \
+    vendor/samsung/msm8917-common/proprietary/vendor/lib/libmac_cutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmac_cutils.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/libsec-ril.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsec-ril.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/libsecaudioinfo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsecaudioinfo.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/libsechelper_engine.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsechelper_engine.so \
@@ -1570,6 +1571,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8917-common/proprietary/vendor/lib64/libsdmutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsdmutils.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib64/libsdsprpc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsdsprpc.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib64/libsec-ril-dsds.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsec-ril-dsds.so \
+    vendor/samsung/msm8917-common/proprietary/vendor/lib64/libmac_cutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmac_cutils.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib64/libsec-ril.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsec-ril.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib64/libsecnativefeature.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsecnativefeature.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib64/libsecure_storage.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsecure_storage.so \
