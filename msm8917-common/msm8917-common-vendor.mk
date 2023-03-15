@@ -270,6 +270,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8917-common/proprietary/vendor/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin \
     vendor/samsung/msm8917-common/proprietary/vendor/firmware/wlan/prima/WCNSS_wlan_dictionary.dat:$(TARGET_COPY_OUT_VENDOR)/firmware/wlan/prima/WCNSS_wlan_dictionary.dat \
     vendor/samsung/msm8917-common/proprietary/vendor/firmware/wlan/prima/grippower.info:$(TARGET_COPY_OUT_VENDOR)/firmware/wlan/prima/grippower.info \
+    vendor/samsung/msm8917-common/proprietary/vendor/lib/libpdx_default_transport.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpdx_default_transport.so \
+    vendor/samsung/msm8917-common/proprietary/vendor/lib/libbufferhubqueue.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbufferhubqueue.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/camera.device@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera.device@1.0-impl.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/camera.device@3.2-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera.device@3.2-impl.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/camera.device@3.3-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera.device@3.3-impl.so \
@@ -1333,6 +1335,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/vendor.samsung.security.wvkprov_server@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.security.wvkprov_server@1.0.so
 
 PRODUCT_COPY_FILES += \
+    vendor/samsung/msm8917-common/proprietary/vendor/lib64/libpdx_default_transport.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpdx_default_transport.so \
+    vendor/samsung/msm8917-common/proprietary/vendor/lib64/libbufferhubqueue.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbufferhubqueue.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib64/camera.device@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera.device@1.0-impl.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib64/camera.device@3.2-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera.device@3.2-impl.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib64/camera.device@3.3-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera.device@3.3-impl.so \
